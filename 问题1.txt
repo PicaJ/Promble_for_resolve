@@ -1,1 +1,7 @@
 1.在c++源码的头文件中，添加extern "C" ，方便C文件对cpp文件的链接，但为什么其他cpp文件仍可以链接到此按照C风格编译的文件？
+
+2.
+void *test = (void *)0;
+	if(test == NULL)
+printf("test is null\n");
+如何使赋值为0时，指针不为空
