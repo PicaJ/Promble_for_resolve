@@ -5,3 +5,6 @@ void *test = (void *)0;
 	if(test == NULL)
 printf("test is null\n");
 如何使赋值为0时，指针不为空
+
+疑点1：
+类型为HI_BOOL得bMute，这样传入时(void *)(&bMute)，不为null得指针
